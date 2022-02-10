@@ -22,12 +22,11 @@ script:
   - docker build -t udagram-frontend ./project/udagram-frontend
   - docker build -t udagram-reverseproxy ./project/udagram-reverseproxy
 
-  # Tagging
+  # Tagging.
   - docker tag udagram-api-feed $DOCKER_HUB/udagram-api-feed:v1
   - docker tag udagram-api-user $DOCKER_HUB/udagram-api-user:v1
   - docker tag udagram-frontend $DOCKER_HUB/udagram-frontend:v1
   - docker tag udagram-reverseproxy $DOCKER_HUB/udagram-reverseproxy:v1
-
 
 after_success:
   # Push
