@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-829575560667-c3
+  AWS_PROFILE: default
+  AWS_REGION: us-west-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: udagram-c3.c5ykcfhvf27w.us-west-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  OWNER: TonyO
+  PORT: "8080"
+metadata:
+  name: env-config

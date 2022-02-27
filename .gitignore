@@ -1,0 +1,3 @@
+project/kubectl-deployment/aws-secret.yaml
+project/kubectl-deployment/env-configmap.yaml
+project/kubectl-deployment/env-secret.yaml
